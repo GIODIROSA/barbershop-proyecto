@@ -9909,12 +9909,28 @@ h3 {
     border-color: #dee2e6;
   }
 }
-h1 {
-  color: rebeccapurple;
+* {
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  box-sizing: border-box;
 }
 
-.prueba {
-  background: red;
+img {
+  max-width: 100%;
+}
+
+header {
+  background: #121619;
+}
+
+.navbar-brand {
+  width: 50px;
+}
+
+.titulo {
+  height: 550px;
+  background-image: url(../images/post-image.jpg);
 }
 
 /*# sourceMappingURL=main.css.map */
