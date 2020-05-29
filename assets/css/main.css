@@ -9977,6 +9977,20 @@ img {
   font-weight: 300;
 }
 
+@media only screen and (min-width: 500px) and (max-width: 1920px) {
+  .titulo h1 {
+    padding: 0px 300px;
+    font-size: 70px;
+  }
+
+  .contenido__fecha {
+    padding: 40px 210px;
+  }
+
+  .contenido__parrafo {
+    padding: 20px 210px;
+  }
+}
 header {
   background: #121619;
 }
@@ -10000,6 +10014,17 @@ main {
   justify-content: space-between;
 }
 
+@media only screen and (min-width: 500px) and (max-width: 1920px) {
+  main {
+    height: 700px;
+    background-position: 100%;
+    background-size: cover;
+  }
+
+  .titulo {
+    height: 700px;
+  }
+}
 footer {
   background: #121619;
   height: 225px;

@@ -58,3 +58,23 @@ padding-bottom: 30px;
     font-family: $roboto;
     font-weight: $light-roboto;
 }
+
+
+
+@media only screen and (min-width:500px) and (max-width: 1920px){
+
+.titulo{
+    h1{
+        padding: 0px 300px;
+        font-size: $xx-large;
+    }
+}
+
+.contenido__fecha{
+    padding: 40px 210px;
+}
+.contenido__parrafo{
+    padding: 20px 210px;
+}
+
+}
