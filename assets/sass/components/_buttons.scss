@@ -27,3 +27,20 @@
    border-radius: 60px;
    background: $nickel;
 }
+
+
+
+@media only screen and (min-width:500px) and (max-width: 1920px){
+// configuracion de botones para desktop
+.botones{
+    padding: 100px 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+
+.boton__twitter{
+    width: 200px;
+}
+
+}

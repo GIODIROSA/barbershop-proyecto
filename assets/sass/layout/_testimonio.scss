@@ -12,3 +12,42 @@
     flex-direction: column;
     justify-content: flex-center;
 }
+.comentario__texto{
+    display: none;
+}
+
+
+
+
+@media only screen and (min-width:500px) and (max-width: 1920px){
+    .post{
+        height: 350px;
+        padding: 0px 200px;
+    }
+    .testin{
+        padding: 50px 0px;
+    }
+    .comentario{
+        height: 200px;
+    }
+    .comentario__texto{
+        display: block;
+        font-family: $roboto;
+        font-weight: $light-roboto;
+        width: 500px;
+        margin: 0px;
+    }
+    .testin__redsocial--izquierda{
+        text-align: left;
+    }
+    
+    .post{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+
+}

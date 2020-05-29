@@ -8,3 +8,14 @@
     height: 150px;
     border-radius: 150px;
 }
+
+
+@media only screen and (min-width:500px) and (max-width: 1920px){
+    .post__image--redonda{
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-bottom: 100px;
+        width: 200px;
+        height: 200px;
+    }
+}
