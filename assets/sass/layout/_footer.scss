@@ -1,0 +1,15 @@
+// configuracion de footer
+
+footer{
+    background: $eerie-black;
+    height: 225px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    .footer__logo{
+        width: 100px;
+        display: block;
+    }
+}
