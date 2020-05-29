@@ -9979,4 +9979,30 @@ main {
   justify-content: space-between;
 }
 
+.botones {
+  padding: 60px 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.boton__compartir {
+  margin: 0px 10px;
+  height: 40px;
+  width: 150px;
+  padding: 0px 10px;
+  border-radius: 60px;
+  color: #fff;
+  background: #6c6e70;
+}
+
+.boton__twitter {
+  margin: 0px 10px 0px 0px;
+  color: #fff;
+  width: 400px;
+  height: 40px;
+  border-radius: 60px;
+  background: #6c6e70;
+}
+
 /*# sourceMappingURL=main.css.map */

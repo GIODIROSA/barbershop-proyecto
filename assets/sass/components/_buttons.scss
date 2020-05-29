@@ -1,20 +1,29 @@
 // configuracion de botones
-// .botones{
-//     margin: 20px;
-//     padding: 0px 10px;
-//     display: flex;
-//     flex-direction: row;
-//     justify-content: space-around;
-// }
+.botones{
+    // margin: 20px;
+    padding: 60px 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+// configuracion del boton compartir
 
-// .boton__compartir{
-//     height: 40px;
-//     padding: 0px 10px;
-//     border-radius: 60px;
-// }
-// .boton__twitter{
-//     color: $white;
-//     width: 200px;
-//    height: 40px;
-//    border-radius: 60px;
-// }
+.boton__compartir{
+    margin: 0px 10px;
+    height: 40px;
+    width: 150px;
+    padding: 0px 10px;
+    border-radius: 60px;
+    color: $white;
+    background: $nickel;
+}
+// configuracion del bonton twitter
+
+.boton__twitter{
+    margin: 0px 10px 0px 0px;
+    color: $white;
+    width: 400px;
+   height: 40px;
+   border-radius: 60px;
+   background: $nickel;
+}
