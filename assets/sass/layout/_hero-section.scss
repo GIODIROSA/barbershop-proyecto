@@ -1,4 +1,17 @@
+// organizacion de la imagen y sus elementos internos cabecera
+
+main{
+    height: 450px;
+    background-image: url(../images/post-image.jpg);
+    background-position: -150px;
+    background-repeat: no-repeat;
+    background-size: cover;  
+    
+  
+}
 .titulo{
-    height: 550px;
-    background-image:url(../images/post-image.jpg);
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }

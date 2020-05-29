@@ -1,0 +1,38 @@
+// configuración de titulos
+
+.titulo{
+    text-align: center;
+ p{
+opacity: 0;
+}
+h1{
+color: $white;
+padding: 50px;
+margin: 0px;
+font-family: $playfair-display;
+font-weight: $black-playfair;
+font-size: $x-large;
+font-style: $italic;
+}
+i{
+color: $white;
+padding-bottom: 30px;
+}
+    }
+
+    // configuracion de contenido(parrafo)
+
+.contenido__fecha{
+    font-size: $small;
+    margin: 0px;
+    padding: 20px 50px;
+    font-family: $playfair-display;
+    font-weight: $regular-playfair;
+}
+.contenido__parrafo{
+    margin: 0px;
+    padding: 10px 50px;
+    font-family: $roboto;
+    color: $raisin_black;
+    font-weight: $light-roboto;
+}

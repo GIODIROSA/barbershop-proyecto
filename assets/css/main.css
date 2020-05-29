@@ -9920,6 +9920,42 @@ img {
   max-width: 100%;
 }
 
+.titulo {
+  text-align: center;
+}
+.titulo p {
+  opacity: 0;
+}
+.titulo h1 {
+  color: #fff;
+  padding: 50px;
+  margin: 0px;
+  font-family: "Playfair Display", serif;
+  font-weight: 800;
+  font-size: 30px;
+  font-style: italic;
+}
+.titulo i {
+  color: #fff;
+  padding-bottom: 30px;
+}
+
+.contenido__fecha {
+  font-size: 12px;
+  margin: 0px;
+  padding: 20px 50px;
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+}
+
+.contenido__parrafo {
+  margin: 0px;
+  padding: 10px 50px;
+  font-family: "Roboto", sans-serif;
+  color: #222323;
+  font-weight: 300;
+}
+
 header {
   background: #121619;
 }
@@ -9928,9 +9964,19 @@ header {
   width: 50px;
 }
 
-.titulo {
-  height: 550px;
+main {
+  height: 450px;
   background-image: url(../images/post-image.jpg);
+  background-position: -150px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.titulo {
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 /*# sourceMappingURL=main.css.map */

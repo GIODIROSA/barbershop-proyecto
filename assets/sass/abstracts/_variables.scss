@@ -16,13 +16,16 @@ $nickel: #6c6e70;
 // typefaces
 
 $roboto: 'Roboto', sans-serif;
-$playfair-display: 'Playfair Display', serif;
+$playfair-display:'Playfair Display', serif;
 
 // weight
-$regular-roboto: 400px;
-$light-roboto: 300px;
-$black-italic-playfair: 900px;
-$regular-playfair: 400px;
+$regular-roboto: 400;
+$light-roboto: 300;
+$black-playfair: 800;
+$regular-playfair: 400;
+
+// style font
+$italic: italic;
 
 // font sizes
 $xx-large: 70px;
