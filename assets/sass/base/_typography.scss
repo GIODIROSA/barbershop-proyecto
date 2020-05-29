@@ -36,3 +36,25 @@ padding-bottom: 30px;
     color: $raisin_black;
     font-weight: $light-roboto;
 }
+
+// configuracion de texto de section testiminio
+
+.testin{
+    padding-top: 10px;
+    text-align: center;
+}
+
+.testin__nombre{
+    color: $eerie-black;
+    padding: 20px 0px;
+    margin: 0px;
+    font-family: $playfair-display;
+    font-style: $italic;
+    font-weight: $black-playfair;
+}
+.testin__redsocial{
+    margin: 0px;
+    color: $fuzzy-wuzzy;
+    font-family: $roboto;
+    font-weight: $light-roboto;
+}

@@ -9956,6 +9956,27 @@ img {
   font-weight: 300;
 }
 
+.testin {
+  padding-top: 10px;
+  text-align: center;
+}
+
+.testin__nombre {
+  color: #121619;
+  padding: 20px 0px;
+  margin: 0px;
+  font-family: "Playfair Display", serif;
+  font-style: italic;
+  font-weight: 800;
+}
+
+.testin__redsocial {
+  margin: 0px;
+  color: #e56353;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+
 header {
   background: #121619;
 }
@@ -9977,6 +9998,18 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+
+.post {
+  padding: 50px;
+  border: 2px solid #e6e7e7;
+}
+
+.post, .testin {
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-center;
 }
 
 .botones {
@@ -10003,6 +10036,15 @@ main {
   height: 40px;
   border-radius: 60px;
   background: #6c6e70;
+}
+
+.post__image--redonda {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 150px;
+  height: 150px;
+  border-radius: 150px;
 }
 
 /*# sourceMappingURL=main.css.map */
