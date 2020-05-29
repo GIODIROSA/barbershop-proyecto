@@ -9984,10 +9984,12 @@ img {
   }
 
   .contenido__fecha {
+    font-size: 18px;
     padding: 40px 210px;
   }
 
   .contenido__parrafo {
+    font-size: x-large;
     padding: 20px 210px;
   }
 }
