@@ -57,7 +57,11 @@ padding-bottom: 30px;
     color: $fuzzy-wuzzy;
     font-family: $roboto;
     font-weight: $light-roboto;
+    &:hover{
+        color: $eerie-black;
+    }
 }
+
 
 
 

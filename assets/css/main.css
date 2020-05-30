@@ -9976,6 +9976,9 @@ img {
   font-family: "Roboto", sans-serif;
   font-weight: 300;
 }
+.testin__redsocial:hover {
+  color: #121619;
+}
 
 @media only screen and (min-width: 500px) and (max-width: 1920px) {
   .titulo h1 {
