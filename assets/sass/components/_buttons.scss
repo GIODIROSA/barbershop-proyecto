@@ -29,6 +29,10 @@
    height: 40px;
    border-radius: 60px;
    background: $nickel;
+   &:hover{
+       background: $platinium;
+   }
+   
 }
 
 
