@@ -32,6 +32,10 @@
    &:hover{
        background: $platinium;
    }
+   &:active{
+       background: $nickel;
+       border: 5px solid $light-gray;
+   }
    
 }
 

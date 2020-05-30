@@ -9979,6 +9979,9 @@ img {
 .testin__redsocial:hover {
   color: #121619;
 }
+.testin__redsocial:active {
+  color: #e6e7e7;
+}
 
 @media only screen and (min-width: 500px) and (max-width: 1920px) {
   .titulo h1 {
@@ -10125,6 +10128,10 @@ footer .footer__logo {
 }
 .boton__twitter:hover {
   background: #e6e7e7;
+}
+.boton__twitter:active {
+  background: #6c6e70;
+  border: 5px solid #d1d1d1;
 }
 
 @media only screen and (min-width: 500px) and (max-width: 1920px) {
