@@ -9941,7 +9941,7 @@ img {
 }
 
 .contenido__fecha {
-  font-size: 12px;
+  font-size: 16px;
   margin: 0px;
   padding: 20px 50px;
   font-family: "Playfair Display", serif;
@@ -9954,6 +9954,9 @@ img {
   font-family: "Roboto", sans-serif;
   color: #222323;
   font-weight: 300;
+}
+.contenido__parrafo span {
+  color: #e56353;
 }
 
 .testin {
@@ -9990,7 +9993,7 @@ img {
   }
 
   .contenido__fecha {
-    font-size: 18px;
+    font-size: 30px;
     padding: 40px 210px;
   }
 
